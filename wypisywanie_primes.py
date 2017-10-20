@@ -4,6 +4,7 @@ def is_prime(num):
             return False
     return True
 
+
 def get_primes(max_number):
 
     list_of_primes = []
@@ -14,12 +15,10 @@ def get_primes(max_number):
 
     return list_of_primes
 
-max_num_to_check = int(input("Search for primes up to : "))
-list_of_primes = get_primes(max_num_to_check)
+max_number_to_check = int(input("Search for primes to : "))
+list_of_primes = get_primes(max_number_to_check)
 
 for prime in list_of_primes:
     print(prime)
-    
-
 
 
